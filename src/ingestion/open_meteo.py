@@ -1,3 +1,4 @@
+import json
 import requests
 import pandas as pd 
 
@@ -17,7 +18,8 @@ def get_villes(data_path) :
     
 
 
-def get_lalltinude_data(lat, lon):
+
+def get_weather_data(lat, lon, session=requests.Session()) :
     """
     Get the weather data for a given latitude and longitude.
     """
@@ -38,12 +40,12 @@ def get_lalltinude_data(lat, lon):
         'timezone' : 'Africa/Casablanca'
     
     }
-    
+
     try : 
-        response = requests.get(api, params=params, timeout=10)  # Set a timeout en Seconds
+        response = session.get(api, params=params, timeout=20)  # Set a timeout en Seconds
         response.raise_for_status()  # Raise an error for bad responses
         return response.json()
-    except requests.exception.HTTPError as e:
+    except requests.exceptions.HTTPError as e:
         print(f"HTTP error occurred: {e}")
         return None
     except requests.exceptions.Timeout as e:
@@ -53,25 +55,44 @@ def get_lalltinude_data(lat, lon):
         print(f"An error occurred: {e}")
         return None
 
+
+def save_data_to_json(data, filename) : 
+    """
+    Save the weather data to a JSON file.
+    """
+    try : 
+        with open(filename, 'w') as f: 
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        print(f"Error saving data to JSON file: {e}")
+        
+        
+
 def main() :
     """
     Main function to get weather data for all cities in the CSV file.
     """
     villes = get_villes(data_path)
 
+    data = []
+    
     for index, ville in villes.iterrows():
         lat = ville.get('lat')
         lon = ville.get('lng')
+        
         # print (ville) 
         # break 
         if lat is not None and lon is not None:
-            weather_data = get_lalltinude_data(lat, lon)
+            print(f"Fetching weather for {ville.get('city')}...")
+            weather_data = get_weather_data(lat, lon)
             if weather_data is not None:
-                print(f"Weather data for {ville.get('city')}: {weather_data}")
-                break  # Remove this break if you want to process all cities
+                data.append(weather_data)
             else:
                 print(f"Failed to retrieve weather data for {ville.get('city')}.")
         else:
             print(f"Latitude or longitude missing for {ville.get('city')}.")
+            
+    save_data_to_json(data, 'data/bronze/weather_data.json')
+
 
 main()
