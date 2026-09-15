@@ -2,8 +2,7 @@ import json
 import requests
 import pandas as pd 
 
-api = 'https://api.open-meteo.com/v1/forecast'
-data_path = 'data/bronze/ma.csv'
+from src.config import API, DATA_PATH, SAVE_WHEATHER_DATA_PATH
 
 
 def get_villes(data_path) : 
@@ -42,7 +41,7 @@ def get_weather_data(lat, lon, session=requests.Session()) :
     }
 
     try : 
-        response = session.get(api, params=params, timeout=20)  # Set a timeout en Seconds
+        response = session.get(API, params=params, timeout=20)  # Set a timeout en Seconds
         response.raise_for_status()  # Raise an error for bad responses
         return response.json()
     except requests.exceptions.HTTPError as e:
@@ -68,11 +67,11 @@ def save_data_to_json(data, filename) :
         
         
 
-def main() :
+def run_bronze_pipeline() :
     """
     Main function to get weather data for all cities in the CSV file.
     """
-    villes = get_villes(data_path)
+    villes = get_villes(DATA_PATH)
 
     data = []
     
@@ -86,13 +85,13 @@ def main() :
             print(f"Fetching weather for {ville.get('city')}...")
             weather_data = get_weather_data(lat, lon)
             if weather_data is not None:
+                weather_data['city'] = ville.get('city')
                 data.append(weather_data)
             else:
                 print(f"Failed to retrieve weather data for {ville.get('city')}.")
         else:
             print(f"Latitude or longitude missing for {ville.get('city')}.")
             
-    save_data_to_json(data, 'data/bronze/weather_data.json')
-
-
-main()
+    save_data_to_json(data, SAVE_WHEATHER_DATA_PATH)
+    
+    
