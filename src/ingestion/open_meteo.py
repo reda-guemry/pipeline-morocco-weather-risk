@@ -3,6 +3,7 @@ import requests
 import pandas as pd 
 
 from src.config import API, DATA_PATH, SAVE_WHEATHER_DATA_PATH
+from src.helper import save_data_to_json
 
 
 def get_villes(data_path) : 
@@ -55,16 +56,7 @@ def get_weather_data(lat, lon, session=requests.Session()) :
         return None
 
 
-def save_data_to_json(data, filename) : 
-    """
-    Save the weather data to a JSON file.
-    """
-    try : 
-        with open(filename, 'w') as f: 
-            json.dump(data, f, indent=4)
-    except Exception as e:
-        print(f"Error saving data to JSON file: {e}")
-        
+
         
 
 def run_bronze_pipeline() :

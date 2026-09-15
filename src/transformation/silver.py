@@ -3,15 +3,21 @@ import json
 import pandas as pd
 
 from src.ingestion.open_meteo import get_villes 
-from src.config import DATA_PATH,SAVE_WHEATHER_DATA_PATH
+from src.config import DATA_PATH,SAVE_WHEATHER_DATA_PATH, DATA_SILVER_PATH
+from src.helper import save_dataframe_to_csv
+
 
 def load_cities() :
     """
     Load the list of cities from the CSV file.
     """
     villes = get_villes(DATA_PATH)
+    
+    villes['latitude'] = villes['lat']
+    villes['longitude'] = villes['lng']
+    
     return villes
-
+    
 
 def load_weather() -> list[dict] : 
     """
@@ -25,9 +31,6 @@ def load_weather() -> list[dict] :
         print(f"Error reading JSON file: {e}")
         return None
     
-    
-
-
     
 def transform_weather(wheater_data: list[dict]) -> pd.DataFrame:  
     dataframe = [] 
@@ -47,6 +50,38 @@ def transform_weather(wheater_data: list[dict]) -> pd.DataFrame:
         
     return pd.concat(dataframe, ignore_index=True)
 
+def Standardisation(wheater_data : pd.DataFrame) -> pd.DataFrame : 
+
+    wheater_data['time'] = pd.to_datetime(wheater_data['time'] , errors='coerce')
+    return wheater_data 
+
+
+def quality_check(wheater_data : pd.DataFrame) :
+    """
+    Perform quality checks on the weather data.
+    Returns True if the data passes the checks, False otherwise.
+    """
+    
+    
+    print(wheater_data.duplicated().sum()) # 0 duplicates
+    
+    print(wheater_data.isna().sum()) # 0 missing values
+    
+    print(wheater_data.dtypes) # Check data types
+    
+    print(wheater_data['precipitation_probability_max'].between(0 , 100).all()) # Check if all values are between 0 and 100
+    
+
+
+    print((wheater_data['temperature_2m_max'] < wheater_data['temperature_2m_min']).sum()) # Check if there are any rows where max temperature is less than min temperature
+        
+    print((wheater_data['windgusts_10m_max'] < wheater_data['windspeed_10m_max']).sum()) # Check if there are any rows where max wind gusts is less than max wind speed
+    
+    print(wheater_data["latitude"].between(-90, 90).all())
+    print(wheater_data["longitude"].between(-180, 180).all())
+    
+    print((wheater_data.groupby('city').size() == 7).sum())   
+    
     
 
 def run_bronze_pipeline() : 
@@ -56,8 +91,26 @@ def run_bronze_pipeline() :
 
     if wheather_df is None :
         print("No weather data to transform.")
-        return
+        return 
+    
+    # quality_check(wheather_df)
+        
+    wheather_df_standariser = Standardisation(wheather_df)
     
     
+    total_citys = load_cities() 
+    
+    join_data = wheather_df_standariser.merge(
+        total_citys,
+        on=['city'],
+        how='left',
+        indicator=True
+    )
+    
+    # print((join_data.groupby('city').size() == 7).all()) # Check if all cities have 7 days of data
+    
+    save_dataframe_to_csv(join_data, DATA_SILVER_PATH)
+
+
 
 run_bronze_pipeline()
