@@ -11,12 +11,7 @@ def load_cities() :
     """
     Load the list of cities from the CSV file.
     """
-    villes = get_villes(DATA_PATH)
-    
-    villes['latitude'] = villes['lat']
-    villes['longitude'] = villes['lng']
-    
-    return villes
+    return get_villes(DATA_PATH)
     
 
 def load_weather() -> list[dict] : 
@@ -43,7 +38,7 @@ def transform_weather(wheater_data: list[dict]) -> pd.DataFrame:
         
         pdframe['latitude'] = data['latitude']
         pdframe['longitude'] = data['longitude']
-        pdframe['timezone'] = data['timezone']
+        pdframe['timezone'] = data['timezone_abbreviation']
         pdframe['city'] = data['city']
         
         dataframe.append(pdframe)
@@ -83,8 +78,15 @@ def quality_check(wheater_data : pd.DataFrame) :
     print((wheater_data.groupby('city').size() == 7).sum())   
     
     
+    
+def drop_unitile_columns(dataframe : pd.DataFrame) -> pd.DataFrame : 
+    """
+    Drop the meta columns from the DataFrame.
+    """
+    return dataframe.drop(columns=['longitude' , 'latitude' , 'iso2', 'capital' , '_merge' , 'admin_name'])
 
-def run_bronze_pipeline() : 
+
+def run_silver_pipeline() : 
     wheater_data = load_weather()
     
     wheather_df = transform_weather(wheater_data)
@@ -100,6 +102,8 @@ def run_bronze_pipeline() :
     
     total_citys = load_cities() 
     
+    # print(wheather_df_standariser.head())
+    
     join_data = wheather_df_standariser.merge(
         total_citys,
         on=['city'],
@@ -107,10 +111,13 @@ def run_bronze_pipeline() :
         indicator=True
     )
     
-    # print((join_data.groupby('city').size() == 7).all()) # Check if all cities have 7 days of data
+    final_data = drop_unitile_columns(join_data) 
     
-    save_dataframe_to_csv(join_data, DATA_SILVER_PATH)
+    # print(final_data.columns) # Check if all cities have 7 days of data
+    
+    
+    save_dataframe_to_csv(final_data, DATA_SILVER_PATH)
 
 
 
-run_bronze_pipeline()
+run_silver_pipeline()
