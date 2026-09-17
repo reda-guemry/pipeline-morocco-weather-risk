@@ -1,5 +1,5 @@
 from src.config import DATA_GOLD_PATH
-from src.database import City, sessionFactory
+from src.database import City, sessionFactory, WeatherForecast
 from sqlalchemy import select
 
 
@@ -65,6 +65,7 @@ def insert_cities(cities_df : pd.DataFrame) :
         session.commit()
     except Exception :
         session.rollback()
+        raise
     finally : 
         session.close()
         
@@ -86,16 +87,31 @@ def indsert_wheater_data(wheater_df : pd.DataFrame) :
         for _, row in wheater_df.iterrows() : 
             city_id = city_map.get(row['city'])
             
-            if city_id == None : 
+            if city_id is None : 
                 continue
             
-            weather_data.append()
+            weather_data.append(WeatherForecast(
+                city_id=city_id,
+                date=row['time'],
+                temperature_2m_max=row['temperature_2m_max'],
+                temperature_2m_min=row['temperature_2m_min'],
+                precipitation_sum=row['precipitation_sum'],
+                precipitation_probability_max=row['precipitation_probability_max'],
+                windspeed_10m_max=row['windspeed_10m_max'],
+                windgusts_10m_max=row['windgusts_10m_max'],
+                weathercode=row['weathercode'],
+                temperature_category=row['temperature_category'],
+                precipitation_category=row['precipitation_category'],
+                risk_score=row['risk_score'],
+            ))
             
-            
-            
-    
+        session.add_all(weather_data)
+        session.commit()
     except Exception  : 
-        pass
+        session.rollback()
+        raise
+    finally : 
+        session.close()
 
 def run_loader_pipeline() :
     """
@@ -109,8 +125,9 @@ def run_loader_pipeline() :
     wheater_data = get_wheater_data(df)
     
     insert_cities(cities_df)
+    indsert_wheater_data(wheater_data)
     
     
     
-# run_loader_pipeline()
+run_loader_pipeline()
 

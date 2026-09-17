@@ -24,7 +24,6 @@ class WeatherForecast(Base) :
     wind_speed_category: Mapped[str | None] 
     is_rainy: Mapped[bool | None] 
     risk_score: Mapped[int | None] 
-    forecast_runs: Mapped[datetime.datetime] = mapped_column(nullable=False)
     
     city : Mapped['City'] = relationship(back_populates='weather_forecasts')
     
