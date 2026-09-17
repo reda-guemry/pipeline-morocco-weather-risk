@@ -91,9 +91,6 @@ def run_silver_pipeline() :
     
     wheather_df = transform_weather(wheater_data)
 
-    if wheather_df is None :
-        print("No weather data to transform.")
-        return 
     
     # quality_check(wheather_df)
         
@@ -108,7 +105,6 @@ def run_silver_pipeline() :
         total_citys,
         on=['city'],
         how='left',
-        indicator=True
     )
     
     final_data = drop_unitile_columns(join_data) 
