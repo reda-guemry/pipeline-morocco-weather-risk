@@ -8,7 +8,7 @@ from alembic import context
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 from src.database import Base
-from src.database.models import models
+from src.database.models import base
 
 
 # this is the Alembic Config object, which provides

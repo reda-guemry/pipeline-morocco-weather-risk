@@ -1,25 +1,10 @@
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship 
+from sqlalchemy.orm import Mapped, mapped_column, relationship 
 from sqlalchemy import ForeignKey, UniqueConstraint
 
 import datetime
 
-class Base(DeclarativeBase):
-    pass 
+from src.database import Base
 
-
-
-class City(Base) :
-    __tablename__ = "cities" 
-    
-    id: Mapped[int] = mapped_column(primary_key=True)
-    name: Mapped[str] = mapped_column(nullable=False)
-    timezone: Mapped[str] = mapped_column(nullable=False)
-    latitude: Mapped[float] = mapped_column(nullable=False)
-    longitude: Mapped[float] = mapped_column(nullable=False)
-    country: Mapped[str] = mapped_column(nullable=False)
-    
-    weather_forecasts: Mapped[list['WeatherForecast']] = relationship(back_populates='city')
-    
     
 class WeatherForecast(Base) : 
     __tablename__ = 'weather_forecasts'
