@@ -6,12 +6,15 @@ services:
       - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
       - POSTGRES_DB=${DATABASE_NAME}
     ports: 
-      - "5432:5432"
+      - "5433:5432"
     volumes: 
       - postgres_data:/var/lib/postgresql/data
       - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     healthcheck: 
       test: ["CMD-SHELL", 'pg_isready -U ${DATABASE_USER} -d ${DATABASE_NAME}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
   
   airflow:
     image: apache/airflow:3.0.6
@@ -41,7 +44,8 @@ services:
       - "8501:8501"
 
     volumes:
-      - ./streamlit:/app
+      - ./src/streamlit:/app/streamlit
+
 
 volumes:
   postgres_data:
