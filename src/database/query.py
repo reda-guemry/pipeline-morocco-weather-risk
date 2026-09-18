@@ -104,5 +104,4 @@ def most_day_risk() :
             row.risk_score
         )
 
-most_day_risk()
 
