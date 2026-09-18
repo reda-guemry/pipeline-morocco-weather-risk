@@ -66,7 +66,7 @@ def most_day_risk() :
     print(result.date, result.risk_score)
 
 
-def most_day_risk() :
+def most_day_risk_by_cities() :
     session = sessionFactory()
     
     ranked = (

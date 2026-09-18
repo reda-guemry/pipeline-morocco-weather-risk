@@ -15,7 +15,7 @@ from src.config import DATABASE_NAME,  DATABASE_PASSWORD, DATABASE_PORT, DATABAS
 # access to the values within the .ini file in use.
 config = context.config
 
-config.set_main_option('sqlalchemy.url', f'postgresql+psycopg2://${DATABASE_USER}:${DATABASE_PASSWORD}@postgres:${DATABASE_PORT}/${DATABASE_NAME}')
+config.set_main_option('sqlalchemy.url', f'postgresql+psycopg2://{DATABASE_USER}:{DATABASE_PASSWORD}@postgres:{DATABASE_PORT}/{DATABASE_NAME}')
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.

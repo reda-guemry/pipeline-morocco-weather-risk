@@ -16,6 +16,21 @@ services:
       timeout: 5s
       retries: 5
   
+  migration:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+
+    env_file:
+      - .env
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    command: alembic upgrade head
+
+
   airflow:
     image: apache/airflow:3.0.6
     depends_on:
@@ -36,6 +51,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.streamlit
+          
+    env_file:
+      - .env
+
 
     depends_on:
       - postgres
@@ -44,7 +63,7 @@ services:
       - "8501:8501"
 
     volumes:
-      - ./src/streamlit:/app/streamlit
+      - ./src:/app/src
 
 
 volumes:
