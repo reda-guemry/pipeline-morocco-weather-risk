@@ -2,7 +2,7 @@ import json
 
 import pandas as pd
 
-from src.ingestion.open_meteo import get_villes 
+from ingestion.run_bronze_pipeline import get_villes 
 from src.config import DATA_PATH,SAVE_WHEATHER_DATA_PATH, DATA_SILVER_PATH
 from src.helper import save_dataframe_to_csv
 

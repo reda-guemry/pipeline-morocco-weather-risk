@@ -33,6 +33,10 @@ services:
 
   airflow:
     image: apache/airflow:3.0.6
+    
+    user: "${AIRFLOW_UID}:0"
+
+
     depends_on:
       - postgres
     ports:
@@ -42,6 +46,7 @@ services:
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     volumes:
       - ./dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./data:/opt/airflow/data
