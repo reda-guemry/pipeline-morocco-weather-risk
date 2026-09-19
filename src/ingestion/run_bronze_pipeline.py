@@ -3,11 +3,7 @@
 from src.ingestion import get_villes, fetch_weather_data
 
 from src.config import DATA_PATH, SAVE_WHEATHER_DATA_PATH
-from src.helper import save_data_to_json
-
-
-
-    
+from src.helper import save_data_to_json    
 
 
         

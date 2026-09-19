@@ -28,7 +28,3 @@ def run_gold_pipeline() :
     save_dataframe_to_csv(data, DATA_GOLD_PATH)
 
     
-    
-if __name__ == "__main__":
-    run_gold_pipeline()
-    

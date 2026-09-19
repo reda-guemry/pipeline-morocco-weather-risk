@@ -4,6 +4,9 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 from src.ingestion import run_bronze_pipeline
+from src.transformation import run_silver_pipeline
+from src.features import run_gold_pipeline
+from src.database.loader import run_loader_pipeline
 
 with DAG(
     dag_id="weather_pipeline",
@@ -16,3 +19,23 @@ with DAG(
         task_id="run_bronze_pipeline",
         python_callable=run_bronze_pipeline,
     )
+    
+    run_silver_task = PythonOperator(
+        task_id="run_silver_pipeline",
+        python_callable=run_silver_pipeline,
+    )
+    
+    run_gold_task = PythonOperator(
+        task_id="run_gold_pipeline",
+        python_callable=run_gold_pipeline,
+    )
+    
+    loader_donner_task = PythonOperator(
+        task_id="loader_donner",
+        python_callable=run_loader_pipeline,
+    )
+    
+    
+    run_bronze_task >> run_silver_task >> run_gold_task >> loader_donner_task
+    
+    

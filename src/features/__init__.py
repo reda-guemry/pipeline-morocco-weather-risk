@@ -1,3 +1,4 @@
 from src.features.load_silver import load_silver
 from src.features.weather_features import add_is_rainy_column, categorical_précipitations, categorical_wind_speed, categorical_whetaer_temperature
 from src.features.risk_score import risk_score
+from src.features.run_gold_pipeline import run_gold_pipeline
