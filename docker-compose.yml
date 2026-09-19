@@ -32,12 +32,15 @@ services:
 
 
   airflow:
-    image: apache/airflow:3.0.6
-    
+    build: 
+      context: .
+      dockerfile: Dockerfile.airflow
+  
     user: "${AIRFLOW_UID}:0"
 
     depends_on:
       - postgres
+
     ports:
       - "8080:8080"
     environment:
