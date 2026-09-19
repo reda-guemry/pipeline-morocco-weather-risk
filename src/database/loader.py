@@ -50,13 +50,14 @@ def insert_cities(cities_df : pd.DataFrame) :
             if row['city'] in excitning_name : 
                 continue 
                         
-            cities.appedn(
-                name=row['city'],
-                timezone=row['timezone'] ,
-                latitude=row['lat'] , 
-                longitude=row['lng'] , 
-                country=row['country']
-        
+            cities.append(
+                City(
+                    name=row['city'],
+                    timezone=row['timezone'],
+                    latitude=row['lat'],
+                    longitude=row['lng'],
+                    country=row['country']
+                )
             )
         
     
