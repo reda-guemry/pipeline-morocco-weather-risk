@@ -32,10 +32,8 @@ services:
 
 
   airflow:
-    build: 
-      context: .
-      dockerfile: Dockerfile.airflow
-
+    image : apache/airflow:3.0.6
+    
     env_file:
       - .env
 

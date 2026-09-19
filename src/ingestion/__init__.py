@@ -1,3 +1,3 @@
 from src.ingestion.get_villes import get_villes
-from src.ingestion.fetch_weather_data import fetch_weather_data
+from src.ingestion.fetch_weather_data_batch import fetch_weather_data_batch
 from src.ingestion.run_bronze_pipeline import run_bronze_pipeline

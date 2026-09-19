@@ -2,7 +2,7 @@
     {
         "latitude": 33.5625,
         "longitude": -7.625,
-        "generationtime_ms": 14.269828796386719,
+        "generationtime_ms": 0.6829500198364258,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
@@ -96,11 +96,12 @@
     {
         "latitude": 35.75,
         "longitude": -5.8125,
-        "generationtime_ms": 54.08620834350586,
+        "generationtime_ms": 0.24211406707763672,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 30.0,
+        "location_id": 1,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -190,11 +191,12 @@
     {
         "latitude": 34.0625,
         "longitude": -5.0,
-        "generationtime_ms": 18.06640625,
+        "generationtime_ms": 0.3401041030883789,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 389.0,
+        "location_id": 2,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -284,11 +286,12 @@
     {
         "latitude": 31.625,
         "longitude": -8.0,
-        "generationtime_ms": 12.314915657043457,
+        "generationtime_ms": 1.3042688369750977,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 469.0,
+        "location_id": 3,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -378,11 +381,12 @@
     {
         "latitude": 34.0,
         "longitude": -6.8125,
-        "generationtime_ms": 10.49339771270752,
+        "generationtime_ms": 0.26798248291015625,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 27.0,
+        "location_id": 4,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -472,11 +476,12 @@
     {
         "latitude": 33.875,
         "longitude": -5.5625,
-        "generationtime_ms": 12.067198753356934,
+        "generationtime_ms": 0.18799304962158203,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 542.0,
+        "location_id": 5,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -566,11 +571,12 @@
     {
         "latitude": 34.0,
         "longitude": -6.8125,
-        "generationtime_ms": 4.388928413391113,
+        "generationtime_ms": 0.1652240753173828,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 18.0,
+        "location_id": 6,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -660,11 +666,12 @@
     {
         "latitude": 30.4375,
         "longitude": -9.5625,
-        "generationtime_ms": 7.848262786865234,
+        "generationtime_ms": 0.5421638488769531,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 60.0,
+        "location_id": 7,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -754,11 +761,12 @@
     {
         "latitude": 34.25,
         "longitude": -6.5625,
-        "generationtime_ms": 4.351615905761719,
+        "generationtime_ms": 0.5644559860229492,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 18.0,
+        "location_id": 8,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -848,11 +856,12 @@
     {
         "latitude": 34.6875,
         "longitude": -1.9375,
-        "generationtime_ms": 4.848599433898926,
+        "generationtime_ms": 0.25260448455810547,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 551.0,
+        "location_id": 9,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -942,11 +951,12 @@
     {
         "latitude": 35.5625,
         "longitude": -5.375,
-        "generationtime_ms": 9.811639785766602,
+        "generationtime_ms": 0.5848407745361328,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 66.0,
+        "location_id": 10,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1036,11 +1046,12 @@
     {
         "latitude": 32.3125,
         "longitude": -9.25,
-        "generationtime_ms": 2.971768379211426,
+        "generationtime_ms": 0.19156932830810547,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 53.0,
+        "location_id": 11,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1130,11 +1141,12 @@
     {
         "latitude": 34.4375,
         "longitude": -2.875,
-        "generationtime_ms": 4.470705986022949,
+        "generationtime_ms": 0.4363059997558594,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 401.0,
+        "location_id": 12,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1224,11 +1236,12 @@
     {
         "latitude": 33.9375,
         "longitude": -6.875,
-        "generationtime_ms": 0.8268356323242188,
+        "generationtime_ms": 0.19657611846923828,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 74.0,
+        "location_id": 13,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1318,11 +1331,12 @@
     {
         "latitude": 27.170473,
         "longitude": -13.229401,
-        "generationtime_ms": 3.980398178100586,
+        "generationtime_ms": 0.941157341003418,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 70.0,
+        "location_id": 14,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1398,13 +1412,13 @@
                 49.3
             ],
             "weathercode": [
-                3,
+                2,
                 3,
                 0,
-                1,
-                0,
-                1,
-                1
+                2,
+                2,
+                3,
+                3
             ]
         },
         "city": "La\u00e2youne"
@@ -1412,11 +1426,12 @@
     {
         "latitude": 33.25,
         "longitude": -8.4375,
-        "generationtime_ms": 7.562518119812012,
+        "generationtime_ms": 0.5747079849243164,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 8.0,
+        "location_id": 15,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1506,11 +1521,12 @@
     {
         "latitude": 30.3125,
         "longitude": -9.5,
-        "generationtime_ms": 6.47735595703125,
+        "generationtime_ms": 0.274658203125,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 24.0,
+        "location_id": 16,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1600,11 +1616,12 @@
     {
         "latitude": 32.3125,
         "longitude": -6.375,
-        "generationtime_ms": 2.7925968170166016,
+        "generationtime_ms": 0.2104043960571289,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 505.0,
+        "location_id": 17,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1694,11 +1711,12 @@
     {
         "latitude": 33.4375,
         "longitude": -7.625,
-        "generationtime_ms": 1.536726951599121,
+        "generationtime_ms": 0.5028247833251953,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 145.0,
+        "location_id": 18,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1788,11 +1806,12 @@
     {
         "latitude": 29.6875,
         "longitude": -9.75,
-        "generationtime_ms": 0.5879402160644531,
+        "generationtime_ms": 1.429438591003418,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 240.0,
+        "location_id": 19,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1882,11 +1901,12 @@
     {
         "latitude": 33.6875,
         "longitude": -7.375,
-        "generationtime_ms": 1.5900135040283203,
+        "generationtime_ms": 0.30934810638427734,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 26.0,
+        "location_id": 20,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -1976,11 +1996,12 @@
     {
         "latitude": 32.875,
         "longitude": -6.875,
-        "generationtime_ms": 0.7632970809936523,
+        "generationtime_ms": 0.568389892578125,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 798.0,
+        "location_id": 21,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2070,11 +2091,12 @@
     {
         "latitude": 33.0,
         "longitude": -7.625,
-        "generationtime_ms": 1.1119842529296875,
+        "generationtime_ms": 0.21278858184814453,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 360.0,
+        "location_id": 22,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2164,11 +2186,12 @@
     {
         "latitude": 33.25,
         "longitude": -7.5625,
-        "generationtime_ms": 0.5432367324829102,
+        "generationtime_ms": 0.18322467803955078,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 222.0,
+        "location_id": 23,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2258,11 +2281,12 @@
     {
         "latitude": 23.725834,
         "longitude": -15.966187,
-        "generationtime_ms": 0.36323070526123047,
+        "generationtime_ms": 4.743337631225586,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 12.0,
+        "location_id": 24,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2306,8 +2330,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0.0,
+                0.1,
+                0.2,
                 0.0
             ],
             "precipitation_probability_max": [
@@ -2338,12 +2362,12 @@
                 41.0
             ],
             "weathercode": [
-                1,
                 0,
                 0,
                 0,
-                1,
-                3,
+                0,
+                51,
+                51,
                 3
             ]
         },
@@ -2352,11 +2376,12 @@
     {
         "latitude": 35.1875,
         "longitude": -2.9375,
-        "generationtime_ms": 2.963900566101074,
+        "generationtime_ms": 0.2828836441040039,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 20.0,
+        "location_id": 25,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2446,11 +2471,12 @@
     {
         "latitude": 34.25,
         "longitude": -4.0,
-        "generationtime_ms": 0.91552734375,
+        "generationtime_ms": 0.33295154571533203,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 516.0,
+        "location_id": 26,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2540,11 +2566,12 @@
     {
         "latitude": 30.375,
         "longitude": -9.5625,
-        "generationtime_ms": 0.23496150970458984,
+        "generationtime_ms": 0.5582571029663086,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 14.0,
+        "location_id": 27,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2634,11 +2661,12 @@
     {
         "latitude": 35.1875,
         "longitude": -6.125,
-        "generationtime_ms": 0.30481815338134766,
+        "generationtime_ms": 0.4755258560180664,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 48.0,
+        "location_id": 28,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2728,11 +2756,12 @@
     {
         "latitude": 33.8125,
         "longitude": -6.0625,
-        "generationtime_ms": 0.47910213470458984,
+        "generationtime_ms": 0.6721019744873047,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 425.0,
+        "location_id": 29,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2822,11 +2851,12 @@
     {
         "latitude": 28.998241,
         "longitude": -10.114685,
-        "generationtime_ms": 1.3266801834106445,
+        "generationtime_ms": 1.5614032745361328,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 281.0,
+        "location_id": 30,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -2906,9 +2936,9 @@
                 0,
                 1,
                 2,
-                2,
+                3,
                 0,
-                0
+                3
             ]
         },
         "city": "Guelmim"
@@ -2916,11 +2946,12 @@
     {
         "latitude": 35.0,
         "longitude": -5.875,
-        "generationtime_ms": 0.3420114517211914,
+        "generationtime_ms": 0.6618499755859375,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 25.0,
+        "location_id": 31,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3010,11 +3041,12 @@
     {
         "latitude": 32.9375,
         "longitude": -5.6875,
-        "generationtime_ms": 0.2592802047729492,
+        "generationtime_ms": 0.22912025451660156,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 846.0,
+        "location_id": 32,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3104,11 +3136,12 @@
     {
         "latitude": 33.875,
         "longitude": -7.0,
-        "generationtime_ms": 0.6319284439086914,
+        "generationtime_ms": 0.1900196075439453,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 55.0,
+        "location_id": 33,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3198,11 +3231,12 @@
     {
         "latitude": 33.625,
         "longitude": -7.3125,
-        "generationtime_ms": 1.0700225830078125,
+        "generationtime_ms": 0.18286705017089844,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 109.0,
+        "location_id": 34,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3292,11 +3326,12 @@
     {
         "latitude": 33.6875,
         "longitude": -6.875,
-        "generationtime_ms": 0.3314018249511719,
+        "generationtime_ms": 0.19168853759765625,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 294.0,
+        "location_id": 35,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3386,11 +3421,12 @@
     {
         "latitude": 32.25,
         "longitude": -7.9375,
-        "generationtime_ms": 0.9630918502807617,
+        "generationtime_ms": 0.3744363784790039,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 464.0,
+        "location_id": 36,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3480,11 +3516,12 @@
     {
         "latitude": 30.1875,
         "longitude": -9.5,
-        "generationtime_ms": 1.8166303634643555,
+        "generationtime_ms": 0.5928277969360352,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 90.0,
+        "location_id": 37,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3574,11 +3611,12 @@
     {
         "latitude": 30.375,
         "longitude": -9.5,
-        "generationtime_ms": 0.26977062225341797,
+        "generationtime_ms": 0.3764629364013672,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 34.0,
+        "location_id": 38,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3668,11 +3706,12 @@
     {
         "latitude": 30.3125,
         "longitude": -9.4375,
-        "generationtime_ms": 0.3669261932373047,
+        "generationtime_ms": 0.19419193267822266,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 61.0,
+        "location_id": 39,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3762,11 +3801,12 @@
     {
         "latitude": 32.0625,
         "longitude": -7.375,
-        "generationtime_ms": 5.203127861022949,
+        "generationtime_ms": 0.7040500640869141,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 466.0,
+        "location_id": 40,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3856,11 +3896,12 @@
     {
         "latitude": 33.1875,
         "longitude": -8.5625,
-        "generationtime_ms": 21.277189254760742,
+        "generationtime_ms": 0.6585121154785156,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 15.0,
+        "location_id": 41,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -3950,11 +3991,12 @@
     {
         "latitude": 33.875,
         "longitude": -6.3125,
-        "generationtime_ms": 0.22876262664794922,
+        "generationtime_ms": 0.2778768539428711,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 337.0,
+        "location_id": 42,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4044,11 +4086,12 @@
     {
         "latitude": 30.375,
         "longitude": -9.1875,
-        "generationtime_ms": 0.40209293365478516,
+        "generationtime_ms": 0.24783611297607422,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 124.0,
+        "location_id": 43,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4138,11 +4181,12 @@
     {
         "latitude": 34.9375,
         "longitude": -2.3125,
-        "generationtime_ms": 0.29778480529785156,
+        "generationtime_ms": 0.28002262115478516,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 184.0,
+        "location_id": 44,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4232,11 +4276,12 @@
     {
         "latitude": 33.8125,
         "longitude": -6.8125,
-        "generationtime_ms": 0.28908252716064453,
+        "generationtime_ms": 0.4991292953491211,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 225.0,
+        "location_id": 45,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4326,11 +4371,12 @@
     {
         "latitude": 31.9375,
         "longitude": -4.4375,
-        "generationtime_ms": 0.2796649932861328,
+        "generationtime_ms": 0.3751516342163086,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1033.0,
+        "location_id": 46,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4420,11 +4466,12 @@
     {
         "latitude": 32.5,
         "longitude": -6.6875,
-        "generationtime_ms": 0.3190040588378906,
+        "generationtime_ms": 0.5737543106079102,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 438.0,
+        "location_id": 47,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4514,11 +4561,12 @@
     {
         "latitude": 33.4375,
         "longitude": -7.5625,
-        "generationtime_ms": 0.4534721374511719,
+        "generationtime_ms": 0.2894401550292969,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 180.0,
+        "location_id": 48,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4608,11 +4656,12 @@
     {
         "latitude": 35.625,
         "longitude": -5.3125,
-        "generationtime_ms": 5.55729866027832,
+        "generationtime_ms": 0.5394220352172852,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 2.0,
+        "location_id": 49,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4702,11 +4751,12 @@
     {
         "latitude": 34.25,
         "longitude": -5.9375,
-        "generationtime_ms": 0.2415180206298828,
+        "generationtime_ms": 0.2764463424682617,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 29.0,
+        "location_id": 50,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4796,11 +4846,12 @@
     {
         "latitude": 32.875,
         "longitude": -6.5625,
-        "generationtime_ms": 0.29718875885009766,
+        "generationtime_ms": 0.21004676818847656,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 780.0,
+        "location_id": 51,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4890,11 +4941,12 @@
     {
         "latitude": 33.8125,
         "longitude": -4.8125,
-        "generationtime_ms": 0.3223419189453125,
+        "generationtime_ms": 0.17762184143066406,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 809.0,
+        "location_id": 52,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -4984,11 +5036,12 @@
     {
         "latitude": 30.5,
         "longitude": -8.875,
-        "generationtime_ms": 0.8780956268310547,
+        "generationtime_ms": 0.2740621566772461,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 238.0,
+        "location_id": 53,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5078,11 +5131,12 @@
     {
         "latitude": 31.5,
         "longitude": -9.75,
-        "generationtime_ms": 1.1339187622070312,
+        "generationtime_ms": 1.252889633178711,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 12.0,
+        "location_id": 54,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5172,11 +5226,12 @@
     {
         "latitude": 33.4375,
         "longitude": -5.25,
-        "generationtime_ms": 0.2301931381225586,
+        "generationtime_ms": 0.1804828643798828,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1277.0,
+        "location_id": 55,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5266,11 +5321,12 @@
     {
         "latitude": 34.25,
         "longitude": -3.375,
-        "generationtime_ms": 0.3592967987060547,
+        "generationtime_ms": 0.31566619873046875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 371.0,
+        "location_id": 56,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5360,11 +5416,12 @@
     {
         "latitude": 30.9375,
         "longitude": -6.9375,
-        "generationtime_ms": 1.028895378112793,
+        "generationtime_ms": 0.47850608825683594,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1126.0,
+        "location_id": 57,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5454,11 +5511,12 @@
     {
         "latitude": 35.8125,
         "longitude": -5.375,
-        "generationtime_ms": 3.783583641052246,
+        "generationtime_ms": 0.18703937530517578,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 17.0,
+        "location_id": 58,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5548,11 +5606,12 @@
     {
         "latitude": 28.435852,
         "longitude": -11.147736,
-        "generationtime_ms": 0.2460479736328125,
+        "generationtime_ms": 2.087116241455078,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 58.0,
+        "location_id": 59,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5631,10 +5690,10 @@
                 3,
                 3,
                 1,
+                3,
+                3,
                 1,
-                1,
-                0,
-                2
+                3
             ]
         },
         "city": "Tan-Tan"
@@ -5642,11 +5701,12 @@
     {
         "latitude": 34.1875,
         "longitude": -5.6875,
-        "generationtime_ms": 1.0374784469604492,
+        "generationtime_ms": 0.6337165832519531,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 124.0,
+        "location_id": 60,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5736,11 +5796,12 @@
     {
         "latitude": 35.625,
         "longitude": -5.3125,
-        "generationtime_ms": 0.4583597183227539,
+        "generationtime_ms": 0.18215179443359375,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 23.0,
+        "location_id": 61,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5830,11 +5891,12 @@
     {
         "latitude": 32.25,
         "longitude": -8.5,
-        "generationtime_ms": 0.38552284240722656,
+        "generationtime_ms": 0.19085407257080078,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 295.0,
+        "location_id": 62,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -5924,11 +5986,12 @@
     {
         "latitude": 32.6875,
         "longitude": -4.75,
-        "generationtime_ms": 0.4432201385498047,
+        "generationtime_ms": 0.26047229766845703,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1466.0,
+        "location_id": 63,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6018,11 +6081,12 @@
     {
         "latitude": 33.625,
         "longitude": -7.4375,
-        "generationtime_ms": 0.3170967102050781,
+        "generationtime_ms": 0.1819133758544922,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 34.0,
+        "location_id": 64,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6112,11 +6176,12 @@
     {
         "latitude": 32.3125,
         "longitude": -6.6875,
-        "generationtime_ms": 0.29349327087402344,
+        "generationtime_ms": 0.23937225341796875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 409.0,
+        "location_id": 65,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6206,11 +6271,12 @@
     {
         "latitude": 34.25,
         "longitude": -6.625,
-        "generationtime_ms": 1.338958740234375,
+        "generationtime_ms": 0.19741058349609375,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 16.0,
+        "location_id": 66,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6300,11 +6366,12 @@
     {
         "latitude": 34.8125,
         "longitude": -5.625,
-        "generationtime_ms": 1.2816190719604492,
+        "generationtime_ms": 0.4062652587890625,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 229.0,
+        "location_id": 67,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6394,11 +6461,12 @@
     {
         "latitude": 26.74868,
         "longitude": -11.648254,
-        "generationtime_ms": 0.9185075759887695,
+        "generationtime_ms": 1.4508962631225586,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 192.0,
+        "location_id": 68,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6438,7 +6506,7 @@
                 25.0
             ],
             "precipitation_sum": [
-                0.1,
+                0.0,
                 0.0,
                 0.0,
                 0.0,
@@ -6474,12 +6542,12 @@
                 51.5
             ],
             "weathercode": [
-                51,
+                3,
+                3,
+                1,
+                1,
                 2,
                 3,
-                0,
-                1,
-                0,
                 3
             ]
         },
@@ -6488,11 +6556,12 @@
     {
         "latitude": 31.5625,
         "longitude": -7.6875,
-        "generationtime_ms": 0.2980232238769531,
+        "generationtime_ms": 0.4843473434448242,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 667.0,
+        "location_id": 69,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6582,11 +6651,12 @@
     {
         "latitude": 33.9375,
         "longitude": -5.0,
-        "generationtime_ms": 0.20194053649902344,
+        "generationtime_ms": 0.2231597900390625,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 510.0,
+        "location_id": 70,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6676,11 +6746,12 @@
     {
         "latitude": 33.5625,
         "longitude": -7.5,
-        "generationtime_ms": 0.3139972686767578,
+        "generationtime_ms": 0.2633333206176758,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 125.0,
+        "location_id": 71,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6770,11 +6841,12 @@
     {
         "latitude": 32.625,
         "longitude": -8.4375,
-        "generationtime_ms": 0.2351999282836914,
+        "generationtime_ms": 0.33020973205566406,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 178.0,
+        "location_id": 72,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6864,11 +6936,12 @@
     {
         "latitude": 30.375,
         "longitude": -9.4375,
-        "generationtime_ms": 0.2878904342651367,
+        "generationtime_ms": 0.17082691192626953,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 52.0,
+        "location_id": 73,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -6958,11 +7031,12 @@
     {
         "latitude": 30.1875,
         "longitude": -9.375,
-        "generationtime_ms": 0.24759769439697266,
+        "generationtime_ms": 0.2665519714355469,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 132.0,
+        "location_id": 74,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7052,11 +7126,12 @@
     {
         "latitude": 35.1875,
         "longitude": -3.875,
-        "generationtime_ms": 0.4570484161376953,
+        "generationtime_ms": 0.1914501190185547,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 59.0,
+        "location_id": 75,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7146,11 +7221,12 @@
     {
         "latitude": 32.625,
         "longitude": -6.25,
-        "generationtime_ms": 0.27549266815185547,
+        "generationtime_ms": 0.20742416381835938,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 506.0,
+        "location_id": 76,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7240,11 +7316,12 @@
     {
         "latitude": 31.9375,
         "longitude": -6.5625,
-        "generationtime_ms": 0.21696090698242188,
+        "generationtime_ms": 0.24259090423583984,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1380.0,
+        "location_id": 77,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7334,11 +7411,12 @@
     {
         "latitude": 32.75,
         "longitude": -6.375,
-        "generationtime_ms": 0.33867359161376953,
+        "generationtime_ms": 0.33211708068847656,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 676.0,
+        "location_id": 78,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7428,11 +7506,12 @@
     {
         "latitude": 35.0,
         "longitude": -3.0,
-        "generationtime_ms": 0.3631114959716797,
+        "generationtime_ms": 0.588536262512207,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 175.0,
+        "location_id": 79,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7522,11 +7601,12 @@
     {
         "latitude": 33.1875,
         "longitude": -5.5625,
-        "generationtime_ms": 0.28765201568603516,
+        "generationtime_ms": 0.2378225326538086,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1114.0,
+        "location_id": 80,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7616,11 +7696,12 @@
     {
         "latitude": 31.5,
         "longitude": -5.5625,
-        "generationtime_ms": 0.905156135559082,
+        "generationtime_ms": 0.20301342010498047,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1280.0,
+        "location_id": 81,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7710,11 +7791,12 @@
     {
         "latitude": 34.1875,
         "longitude": -6.6875,
-        "generationtime_ms": 0.2123117446899414,
+        "generationtime_ms": 0.148773193359375,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 24.0,
+        "location_id": 82,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7804,11 +7886,12 @@
     {
         "latitude": 26.115992,
         "longitude": -14.490692,
-        "generationtime_ms": 1.6895532608032227,
+        "generationtime_ms": 0.7115602493286133,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 3.0,
+        "location_id": 83,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7886,10 +7969,10 @@
             "weathercode": [
                 3,
                 1,
+                1,
                 2,
                 1,
-                0,
-                1,
+                3,
                 3
             ]
         },
@@ -7898,11 +7981,12 @@
     {
         "latitude": 30.3125,
         "longitude": -5.8125,
-        "generationtime_ms": 1.0890960693359375,
+        "generationtime_ms": 0.2865791320800781,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 733.0,
+        "location_id": 84,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -7992,11 +8076,12 @@
     {
         "latitude": 33.3125,
         "longitude": -8.3125,
-        "generationtime_ms": 0.26857852935791016,
+        "generationtime_ms": 0.3949403762817383,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 4.0,
+        "location_id": 85,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8086,11 +8171,12 @@
     {
         "latitude": 33.6875,
         "longitude": -5.375,
-        "generationtime_ms": 0.2859830856323242,
+        "generationtime_ms": 0.3094673156738281,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 982.0,
+        "location_id": 86,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8180,11 +8266,12 @@
     {
         "latitude": 34.3125,
         "longitude": -2.1875,
-        "generationtime_ms": 1.2507438659667969,
+        "generationtime_ms": 0.18084049224853516,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1050.0,
+        "location_id": 87,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8274,11 +8361,12 @@
     {
         "latitude": 34.5625,
         "longitude": -2.5,
-        "generationtime_ms": 2.1234750747680664,
+        "generationtime_ms": 0.2683401107788086,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 584.0,
+        "location_id": 88,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8368,11 +8456,12 @@
     {
         "latitude": 31.5,
         "longitude": -8.125,
-        "generationtime_ms": 0.3345012664794922,
+        "generationtime_ms": 0.21469593048095703,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 553.0,
+        "location_id": 89,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8462,11 +8551,12 @@
     {
         "latitude": 34.3125,
         "longitude": -6.3125,
-        "generationtime_ms": 0.5993843078613281,
+        "generationtime_ms": 0.1976490020751953,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 18.0,
+        "location_id": 90,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8556,11 +8646,12 @@
     {
         "latitude": 31.5625,
         "longitude": -8.75,
-        "generationtime_ms": 0.43189525604248047,
+        "generationtime_ms": 0.19657611846923828,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 365.0,
+        "location_id": 91,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8650,11 +8741,12 @@
     {
         "latitude": 31.8125,
         "longitude": -7.3125,
-        "generationtime_ms": 0.6639957427978516,
+        "generationtime_ms": 0.1970529556274414,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 631.0,
+        "location_id": 92,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8744,11 +8836,12 @@
     {
         "latitude": 30.875,
         "longitude": -6.9375,
-        "generationtime_ms": 0.5265474319458008,
+        "generationtime_ms": 0.6248950958251953,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1138.0,
+        "location_id": 93,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8838,11 +8931,12 @@
     {
         "latitude": 34.9375,
         "longitude": -2.75,
-        "generationtime_ms": 0.2124309539794922,
+        "generationtime_ms": 0.26357173919677734,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 186.0,
+        "location_id": 94,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -8932,11 +9026,12 @@
     {
         "latitude": 33.125,
         "longitude": -5.8125,
-        "generationtime_ms": 0.7264614105224609,
+        "generationtime_ms": 0.45359134674072266,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1156.0,
+        "location_id": 95,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9026,11 +9121,12 @@
     {
         "latitude": 35.5,
         "longitude": -6.0,
-        "generationtime_ms": 0.9173154830932617,
+        "generationtime_ms": 0.3218650817871094,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 9.0,
+        "location_id": 96,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9120,11 +9216,12 @@
     {
         "latitude": 35.125,
         "longitude": -3.875,
-        "generationtime_ms": 3.0111074447631836,
+        "generationtime_ms": 0.40912628173828125,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 79.0,
+        "location_id": 97,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9214,11 +9311,12 @@
     {
         "latitude": 33.4375,
         "longitude": -7.5,
-        "generationtime_ms": 0.48291683197021484,
+        "generationtime_ms": 0.21159648895263672,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 180.0,
+        "location_id": 98,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9308,11 +9406,12 @@
     {
         "latitude": 31.75,
         "longitude": -7.0625,
-        "generationtime_ms": 1.922011375427246,
+        "generationtime_ms": 0.37872791290283203,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1023.0,
+        "location_id": 99,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9402,11 +9501,12 @@
     {
         "latitude": 33.9375,
         "longitude": -5.1875,
-        "generationtime_ms": 0.32210350036621094,
+        "generationtime_ms": 0.26786327362060547,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 470.0,
+        "location_id": 100,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9496,11 +9596,12 @@
     {
         "latitude": 32.8125,
         "longitude": -8.5,
-        "generationtime_ms": 0.7712841033935547,
+        "generationtime_ms": 0.22661685943603516,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 155.0,
+        "location_id": 101,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9590,11 +9691,12 @@
     {
         "latitude": 34.875,
         "longitude": -6.25,
-        "generationtime_ms": 0.33855438232421875,
+        "generationtime_ms": 0.21648406982421875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 44.0,
+        "location_id": 102,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9684,11 +9786,12 @@
     {
         "latitude": 34.5625,
         "longitude": -5.9375,
-        "generationtime_ms": 0.9250640869140625,
+        "generationtime_ms": 0.1951456069946289,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 17.0,
+        "location_id": 103,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9778,11 +9881,12 @@
     {
         "latitude": 34.5,
         "longitude": -5.5,
-        "generationtime_ms": 1.0107755661010742,
+        "generationtime_ms": 0.19431114196777344,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 66.0,
+        "location_id": 104,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9872,11 +9976,12 @@
     {
         "latitude": 35.125,
         "longitude": -3.0,
-        "generationtime_ms": 0.27740001678466797,
+        "generationtime_ms": 0.18310546875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 107.0,
+        "location_id": 105,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -9966,11 +10071,12 @@
     {
         "latitude": 30.625,
         "longitude": -8.5,
-        "generationtime_ms": 0.7042884826660156,
+        "generationtime_ms": 0.33080577850341797,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 500.0,
+        "location_id": 106,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10060,11 +10166,12 @@
     {
         "latitude": 33.375,
         "longitude": -8.0,
-        "generationtime_ms": 0.6541013717651367,
+        "generationtime_ms": 0.17547607421875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 101.0,
+        "location_id": 107,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10154,11 +10261,12 @@
     {
         "latitude": 32.5,
         "longitude": -1.9375,
-        "generationtime_ms": 0.7443428039550781,
+        "generationtime_ms": 0.19538402557373047,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 1161.0,
+        "location_id": 108,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10248,11 +10356,12 @@
     {
         "latitude": 31.375,
         "longitude": -7.9375,
-        "generationtime_ms": 0.2658367156982422,
+        "generationtime_ms": 0.24366378784179688,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 929.0,
+        "location_id": 109,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10342,11 +10451,12 @@
     {
         "latitude": 31.4375,
         "longitude": -4.25,
-        "generationtime_ms": 1.6492605209350586,
+        "generationtime_ms": 0.21660327911376953,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 808.0,
+        "location_id": 110,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10436,11 +10546,12 @@
     {
         "latitude": 34.0625,
         "longitude": -4.4375,
-        "generationtime_ms": 1.2115240097045898,
+        "generationtime_ms": 0.1735687255859375,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 615.0,
+        "location_id": 111,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10530,11 +10641,12 @@
     {
         "latitude": 33.0625,
         "longitude": -4.0,
-        "generationtime_ms": 0.335693359375,
+        "generationtime_ms": 0.24378299713134766,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 887.0,
+        "location_id": 112,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10624,11 +10736,12 @@
     {
         "latitude": 31.5625,
         "longitude": -9.0,
-        "generationtime_ms": 0.2129077911376953,
+        "generationtime_ms": 0.16236305236816406,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 390.0,
+        "location_id": 113,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10718,11 +10831,12 @@
     {
         "latitude": 33.875,
         "longitude": -5.625,
-        "generationtime_ms": 0.35691261291503906,
+        "generationtime_ms": 0.15175342559814453,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 497.0,
+        "location_id": 114,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10812,11 +10926,12 @@
     {
         "latitude": 32.4375,
         "longitude": -6.3125,
-        "generationtime_ms": 0.5592107772827148,
+        "generationtime_ms": 0.39446353912353516,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 503.0,
+        "location_id": 115,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -10906,11 +11021,12 @@
     {
         "latitude": 32.6875,
         "longitude": -5.9375,
-        "generationtime_ms": 0.2925395965576172,
+        "generationtime_ms": 0.225067138671875,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 657.0,
+        "location_id": 116,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -11000,11 +11116,12 @@
     {
         "latitude": 31.1875,
         "longitude": -8.875,
-        "generationtime_ms": 0.6873607635498047,
+        "generationtime_ms": 0.6159543991088867,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 863.0,
+        "location_id": 117,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -11094,11 +11211,12 @@
     {
         "latitude": 32.125,
         "longitude": -9.0625,
-        "generationtime_ms": 0.4634857177734375,
+        "generationtime_ms": 0.2549886703491211,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 173.0,
+        "location_id": 118,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -11188,11 +11306,12 @@
     {
         "latitude": 26.18629,
         "longitude": -10.559204,
-        "generationtime_ms": 10.380029678344727,
+        "generationtime_ms": 1.0148286819458008,
         "utc_offset_seconds": 3600,
         "timezone": "Africa/Casablanca",
         "timezone_abbreviation": "GMT+1",
         "elevation": 486.0,
+        "location_id": 119,
         "daily_units": {
             "time": "iso8601",
             "temperature_2m_max": "\u00b0C",
@@ -11272,7 +11391,7 @@
                 0,
                 3,
                 3,
-                3,
+                1,
                 3,
                 3
             ]

@@ -97,13 +97,13 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-23,29.8,18.7,0.0,0,11.0,30.6,0,GMT+1,Temara,33.9234,-6.9076,Morocco,297098,297098,Warm,No Rain,Breeze,False,10
 2026-09-24,25.1,18.4,0.0,0,10.7,22.7,45,GMT+1,Temara,33.9234,-6.9076,Morocco,297098,297098,Warm,No Rain,Breeze,False,10
 2026-09-25,24.1,19.9,0.0,0,12.0,25.6,45,GMT+1,Temara,33.9234,-6.9076,Morocco,297098,297098,Warm,No Rain,Breeze,False,10
-2026-09-19,28.8,18.1,0.0,0,22.5,45.4,3,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Warm,No Rain,Windy,False,10
+2026-09-19,28.8,18.1,0.0,0,22.5,45.4,2,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Warm,No Rain,Windy,False,10
 2026-09-20,33.3,18.5,0.0,0,21.6,42.8,3,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Hot,No Rain,Windy,False,20
 2026-09-21,37.5,20.6,0.0,1,23.2,45.4,0,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
-2026-09-22,36.2,20.7,0.0,2,24.9,47.5,1,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
-2026-09-23,42.3,21.6,0.0,1,26.8,52.6,0,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
-2026-09-24,41.5,25.7,0.0,0,25.0,56.9,1,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
-2026-09-25,37.9,22.7,0.0,0,23.0,49.3,1,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
+2026-09-22,36.2,20.7,0.0,2,24.9,47.5,2,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
+2026-09-23,42.3,21.6,0.0,1,26.8,52.6,2,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
+2026-09-24,41.5,25.7,0.0,0,25.0,56.9,3,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
+2026-09-25,37.9,22.7,0.0,0,23.0,49.3,3,GMT+1,Laâyoune,27.15,-13.2,Morocco,262791,262791,Very Hot,No Rain,Windy,False,20
 2026-09-19,25.6,20.0,0.0,0,15.6,28.8,2,GMT+1,El Jadid,33.2566,-8.5025,Morocco,237464,237464,Warm,No Rain,Breeze,False,10
 2026-09-20,27.6,20.3,0.0,0,11.6,21.6,45,GMT+1,El Jadid,33.2566,-8.5025,Morocco,237464,237464,Warm,No Rain,Breeze,False,10
 2026-09-21,27.1,20.6,0.0,0,12.8,24.1,45,GMT+1,El Jadid,33.2566,-8.5025,Morocco,237464,237464,Warm,No Rain,Breeze,False,10
@@ -167,12 +167,12 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-23,36.2,16.2,0.0,0,16.3,30.6,1,GMT+1,Barrechid,33.27,-7.5872,Morocco,168687,168687,Very Hot,No Rain,Breeze,False,20
 2026-09-24,34.3,16.4,0.0,0,19.1,34.9,45,GMT+1,Barrechid,33.27,-7.5872,Morocco,168687,168687,Hot,No Rain,Breeze,False,20
 2026-09-25,29.0,19.2,0.0,3,16.1,31.3,45,GMT+1,Barrechid,33.27,-7.5872,Morocco,168687,168687,Warm,No Rain,Breeze,False,10
-2026-09-19,21.5,20.3,0.0,0,30.9,38.5,1,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Strong Wind,False,30
+2026-09-19,21.5,20.3,0.0,0,30.9,38.5,0,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Strong Wind,False,30
 2026-09-20,21.7,19.5,0.0,0,27.9,34.9,0,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Windy,False,10
 2026-09-21,21.7,20.5,0.0,8,28.4,35.3,0,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Windy,False,10
 2026-09-22,21.9,20.2,0.0,7,31.3,39.6,0,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Strong Wind,False,30
-2026-09-23,22.2,20.2,0.0,4,30.2,38.2,1,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Strong Wind,False,30
-2026-09-24,23.1,20.5,0.0,4,25.3,33.5,3,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Windy,False,10
+2026-09-23,22.2,20.2,0.1,4,30.2,38.2,51,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,Light Rain,Strong Wind,True,30
+2026-09-24,23.1,20.5,0.2,4,25.3,33.5,51,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,Light Rain,Windy,True,10
 2026-09-25,24.4,22.8,0.0,4,26.6,41.0,3,GMT+1,Ad Dakhla,23.7167,-15.95,Morocco,165463,165463,Warm,No Rain,Windy,False,10
 2026-09-19,25.7,22.7,4.3,3,23.3,50.0,80,GMT+1,Nador,35.1667,-2.9333,Morocco,161726,161726,Warm,Moderate Rain,Windy,True,20
 2026-09-20,26.0,23.2,4.4,15,21.2,45.0,80,GMT+1,Nador,35.1667,-2.9333,Morocco,161726,161726,Warm,Moderate Rain,Windy,True,20
@@ -213,9 +213,9 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-20,37.7,17.9,0.0,0,19.6,34.9,0,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Breeze,False,20
 2026-09-21,39.9,23.2,0.0,0,21.1,35.6,1,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Windy,False,20
 2026-09-22,39.1,24.3,0.0,0,22.0,36.0,2,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Windy,False,20
-2026-09-23,39.2,24.4,0.0,2,21.8,40.7,2,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Windy,False,20
+2026-09-23,39.2,24.4,0.0,2,21.8,40.7,3,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Windy,False,20
 2026-09-24,38.4,22.5,0.0,2,19.0,37.8,0,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Very Hot,No Rain,Breeze,False,20
-2026-09-25,34.3,19.7,0.0,4,15.6,33.8,0,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Hot,No Rain,Breeze,False,20
+2026-09-25,34.3,19.7,0.0,4,15.6,33.8,3,GMT+1,Guelmim,28.9833,-10.0667,Morocco,126729,126729,Hot,No Rain,Breeze,False,20
 2026-09-19,35.5,18.8,0.0,0,10.9,22.3,1,GMT+1,Ksar El Kebir,35.0,-5.9,Morocco,124701,124701,Very Hot,No Rain,Breeze,False,20
 2026-09-20,36.6,22.4,0.0,0,16.3,30.2,0,GMT+1,Ksar El Kebir,35.0,-5.9,Morocco,124701,124701,Very Hot,No Rain,Breeze,False,20
 2026-09-21,36.3,22.4,0.0,0,16.0,29.9,0,GMT+1,Ksar El Kebir,35.0,-5.9,Morocco,124701,124701,Very Hot,No Rain,Breeze,False,20
@@ -415,10 +415,10 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-19,26.9,19.3,0.0,0,20.8,39.2,3,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Warm,No Rain,Windy,False,10
 2026-09-20,31.7,18.0,0.0,0,18.0,34.9,3,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Hot,No Rain,Breeze,False,20
 2026-09-21,35.8,18.7,0.0,0,24.5,45.0,1,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Very Hot,No Rain,Windy,False,20
-2026-09-22,35.0,18.8,0.0,0,22.8,41.4,1,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Hot,No Rain,Windy,False,20
-2026-09-23,37.3,25.3,0.0,0,21.8,42.8,1,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Very Hot,No Rain,Windy,False,20
-2026-09-24,38.3,23.4,0.0,2,22.6,40.7,0,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Very Hot,No Rain,Windy,False,20
-2026-09-25,31.3,17.9,0.0,2,14.3,38.5,2,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Hot,No Rain,Breeze,False,20
+2026-09-22,35.0,18.8,0.0,0,22.8,41.4,3,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Hot,No Rain,Windy,False,20
+2026-09-23,37.3,25.3,0.0,0,21.8,42.8,3,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Very Hot,No Rain,Windy,False,20
+2026-09-24,38.3,23.4,0.0,2,22.6,40.7,1,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Very Hot,No Rain,Windy,False,20
+2026-09-25,31.3,17.9,0.0,2,14.3,38.5,3,GMT+1,Tan-Tan,28.4333,-11.1,Morocco,76134,76134,Hot,No Rain,Breeze,False,20
 2026-09-19,36.4,20.9,0.0,0,21.1,43.2,1,GMT+1,Sidi Qacem,34.21,-5.7,Morocco,75037,75037,Very Hot,No Rain,Windy,False,20
 2026-09-20,37.7,24.7,0.0,0,15.9,38.5,0,GMT+1,Sidi Qacem,34.21,-5.7,Morocco,75037,75037,Very Hot,No Rain,Breeze,False,20
 2026-09-21,37.4,23.6,0.0,0,11.3,25.9,1,GMT+1,Sidi Qacem,34.21,-5.7,Morocco,75037,75037,Very Hot,No Rain,Breeze,False,20
@@ -475,12 +475,12 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-23,35.2,18.2,0.0,0,13.0,25.2,0,GMT+1,Ouezzane,34.8,-5.6,Morocco,57737,57737,Very Hot,No Rain,Breeze,False,20
 2026-09-24,35.8,18.3,0.0,0,12.9,31.7,1,GMT+1,Ouezzane,34.8,-5.6,Morocco,57737,57737,Very Hot,No Rain,Breeze,False,20
 2026-09-25,31.3,17.7,0.0,3,15.3,32.0,45,GMT+1,Ouezzane,34.8,-5.6,Morocco,57737,57737,Hot,No Rain,Breeze,False,20
-2026-09-19,32.0,19.7,0.1,0,18.6,28.4,51,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Hot,Light Rain,Breeze,True,20
-2026-09-20,37.8,18.9,0.0,0,21.7,37.8,2,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
-2026-09-21,41.9,25.2,0.0,10,23.8,41.4,3,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
-2026-09-22,41.6,25.0,0.0,2,25.3,47.9,0,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
-2026-09-23,41.7,27.2,0.0,2,24.2,46.8,1,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
-2026-09-24,41.7,26.9,0.0,2,29.0,44.6,0,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
+2026-09-19,32.0,19.7,0.0,0,18.6,28.4,3,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Hot,No Rain,Breeze,False,20
+2026-09-20,37.8,18.9,0.0,0,21.7,37.8,3,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
+2026-09-21,41.9,25.2,0.0,10,23.8,41.4,1,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
+2026-09-22,41.6,25.0,0.0,2,25.3,47.9,1,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
+2026-09-23,41.7,27.2,0.0,2,24.2,46.8,2,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
+2026-09-24,41.7,26.9,0.0,2,29.0,44.6,3,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
 2026-09-25,40.1,25.0,0.0,2,25.3,51.5,3,GMT+1,Semara,26.7394,-11.6703,Morocco,57035,57035,Very Hot,No Rain,Windy,False,20
 2026-09-19,34.4,19.9,0.3,18,11.7,38.9,80,GMT+1,Ait Ourir,31.5644,-7.6628,Morocco,56954,56954,Hot,Light Rain,Breeze,True,20
 2026-09-20,35.5,23.4,0.0,23,12.8,27.0,3,GMT+1,Ait Ourir,31.5644,-7.6628,Morocco,56954,56954,Very Hot,No Rain,Breeze,False,20
@@ -582,10 +582,10 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-25,25.9,20.0,0.0,0,10.7,26.3,45,GMT+1,Bouknadel,34.1766,-6.6893,Morocco,43598,43598,Warm,No Rain,Breeze,False,10
 2026-09-19,24.8,20.0,0.0,0,22.2,42.5,3,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
 2026-09-20,27.5,18.9,0.0,0,26.2,47.9,1,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
-2026-09-21,27.0,20.3,0.0,3,26.4,47.9,2,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
-2026-09-22,26.6,20.7,0.0,7,26.9,49.0,1,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
-2026-09-23,28.4,20.5,0.0,2,24.6,46.1,0,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
-2026-09-24,34.1,23.5,0.0,2,30.6,51.5,1,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Hot,No Rain,Strong Wind,False,40
+2026-09-21,27.0,20.3,0.0,3,26.4,47.9,1,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
+2026-09-22,26.6,20.7,0.0,7,26.9,49.0,2,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
+2026-09-23,28.4,20.5,0.0,2,24.6,46.1,1,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Windy,False,10
+2026-09-24,34.1,23.5,0.0,2,30.6,51.5,3,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Hot,No Rain,Strong Wind,False,40
 2026-09-25,29.7,23.7,0.0,4,30.2,51.1,3,GMT+1,Cabo Bojador,26.1269,-14.4992,Morocco,42651,42651,Warm,No Rain,Strong Wind,False,30
 2026-09-19,32.7,25.3,0.0,8,23.0,36.4,3,GMT+1,Zagora,30.3316,-5.8376,Morocco,42294,42294,Hot,No Rain,Windy,False,20
 2026-09-20,33.8,23.6,0.0,8,22.4,37.8,3,GMT+1,Zagora,30.3316,-5.8376,Morocco,42294,42294,Hot,No Rain,Windy,False,20
@@ -836,6 +836,6 @@ time,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_proba
 2026-09-20,37.5,19.5,0.0,0,13.0,25.9,0,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Breeze,False,20
 2026-09-21,38.8,25.0,0.0,2,24.1,40.0,3,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Windy,False,20
 2026-09-22,39.0,24.5,0.0,0,20.8,36.0,3,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Windy,False,20
-2026-09-23,38.6,25.8,0.0,0,19.6,36.0,3,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Breeze,False,20
+2026-09-23,38.6,25.8,0.0,0,19.6,36.0,1,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Breeze,False,20
 2026-09-24,39.0,26.6,0.0,0,20.7,37.8,3,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Windy,False,20
 2026-09-25,37.5,26.7,0.0,2,20.1,34.6,3,GMT+1,Tifariti,26.158,-10.567,Morocco,3000,3000,Very Hot,No Rain,Windy,False,20
