@@ -6,9 +6,9 @@ from sqlalchemy import select
 
 from src.database import City, WeatherForecast, sessionFactory
 
-# A period counts as "at risk" when the score reaches a real warning level
-# (at least one Hot temperature / Heavy rain / Strong wind event).
-RISK_THRESHOLD = 20
+# A period counts as "at risk" when the simple risk score reaches one
+# clearly present hazard: 35C+ heat, 8mm+ rain or strong wind (= 25 pts).
+RISK_THRESHOLD = 25
 
 
 @st.cache_data(ttl=600, show_spinner=False)
